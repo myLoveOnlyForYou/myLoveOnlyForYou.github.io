@@ -1,0 +1,122 @@
+@import url(reset.css);
+a{
+    text-decoration: none;
+    color: white;
+    background-color: #00C853;
+    font: 21pt arial;
+    width: fit-content; 
+    height: fit-content;
+    margin: 30px auto;
+    padding: 5px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.a{
+    color: white;
+    background-color: #00C853;
+    font: 16pt arial;
+    width: fit-content; 
+    height: fit-content;
+    margin: 30px auto;
+    padding: 5px;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FAFAFA;
+}
+#wrapper{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#text, #button{
+    font: 30pt Arial;
+    margin: 3% auto;
+    color: #0D47A1;
+}
+input{
+    text-align: center;
+    font: 45pt Arial;
+    margin: 10px auto;
+}
+#button{
+    background-color: #3D5AFE;
+    width: auto;
+    color: white;
+    border-radius: 15px;
+    display: table;
+    padding: 5px;
+    cursor: pointer;
+}
+#button:hover{
+    background-color: #536DFE;
+}
+#error{
+    color: #C51162;font:20pt Arial; margin: 5px auto;
+}
+
+#last-part{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.success{
+    margin: 3px 5px;
+}
+.silly{
+    background-color: #E91E63;
+    color: white;
+    font: 21pt Arial;
+    flex: 1;
+    padding: 5px;
+}
+.girls{
+    background-color: #E040FB;
+    color: white;
+    font: italic 25pt Times;
+    flex: 1;
+    padding: 7px;
+}
+.how{
+    background-color: #00B8D4;
+    color: white;
+    font: 26pt Georgia;
+    flex: 1;
+    padding: 3px;
+}
+.i{
+    background-color: #00B8D4;
+    color: white;
+    font: Bold 30pt Georgia;
+    flex: 1;
+    padding: 5px;
+}
+.fucking{
+    background-color: #1DE9B6;
+    color: white;
+    font: 20pt Calibri;
+    flex: 1;
+    padding: 7px;
+}
+.love{
+    background-color: #EC407A;
+    color: white;
+    font: Bold italic 15pt Minion;
+    flex: 1;
+    padding: 3px;
+}
+.you{
+    background-color: #F57F17;
+    color: white;
+    font: 25pt Lato;
+    flex: 1;
+    padding: 5px;
+}
